@@ -1,0 +1,78 @@
+body {
+  direction: rtl;
+  margin: 0;
+  background-color: rgb(180, 164, 194);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(133, 67, 195);
+  height: 50px;
+}
+
+nav img{
+  width: 20px;
+  margin-right: 15px;
+}
+
+a {
+margin-left: 20px;
+margin-right: 20px;
+text-decoration: none;
+color: white;
+}
+
+.search {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.bodyDiv{
+  display: flex;
+}
+
+.bodyDiv div{
+  width: 500px;
+}
+
+.searchList img,.productsList img,.userProductsList img{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.calcuteBtn{
+  display: none;
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: rgb(62, 6, 114);
+  border: none;
+  border-radius: 10px;
+  margin: 20px auto;
+
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+li div{
+  display: flex;
+  border: 2px solid rgb(62, 6, 114);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.pUserProductsListDiv{
+  text-align: center;
+}
